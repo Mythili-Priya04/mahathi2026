@@ -1,3 +1,33 @@
+/* Main Section Title */
+.ct-mega-menu h2 {
+    font-size: 16px !important;
+    font-weight: 700;
+}
+
+/* "View all solutions" button text */
+.ct-mega-menu a span {
+    font-size: 15px !important;
+    font-weight: 400;
+}
+
+/* Solution Box Headings (Workers Comp, Property & Casualty, etc.) */
+.our_solution_box h4 {
+    font-size: 16px !important;
+    font-weight: 700;
+}
+
+/* Subtitle text under "Our Solutions" */
+.ct-mega-menu p {
+    font-size: 16px !important;
+    line-height: 1.6;
+}
+
+/* Solution description content */
+.our_solution_box p {
+    font-size: 12px !important;
+    line-height: 1.6;
+}
+
 .head{
 background-color: #6D9C72;
 }

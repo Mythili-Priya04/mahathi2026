@@ -13322,7 +13322,7 @@ readers do not read off random characters that represent icons */
 .fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
-
+/* 
 @font-face {
   font-family: 'Open_Sans';
   src: url("../fonts/opensans-bold-webfont.woff2") format("woff2"), url("../fonts/opensans-bold-webfont.woff") format("woff");
@@ -13387,14 +13387,14 @@ readers do not read off random characters that represent icons */
   font-family: 'Open_Sans';
   src: url("../fonts/OpenSans-Medium.ttf") format("truetype");
   font-weight: 500;
-  font-style: normal; }
+  font-style: normal; } */
 
 /* CSS that should apply to the site on a global level should go here */
-html,
+/* html,
 body {
   min-height: 100%;
   font-family: 'Open Sans', 'Open_Sans', sans-serif;
-  font-weight: 400; }
+  font-weight: 400; } */
 
 /* Accounts for djangocms toolbar being displayed */
 html.cms-ready {
