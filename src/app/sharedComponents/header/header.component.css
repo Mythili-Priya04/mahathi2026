@@ -1,3 +1,23 @@
+/* Header text (16px) */
+.ct-mega-menu .col-lg-4 h4,
+.ct-mega-menu .col-lg-4 h4 b {
+    font-size: 16px !important;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+/* Body content text (12px) */
+.ct-mega-menu .col-lg-4 p {
+    font-size: 12px !important;
+    line-height: 1.6;
+}
+
+/* Button text (optional – readable size) */
+.ct-mega-menu .col-lg-4 a,
+.ct-mega-menu .col-lg-4 a span {
+    font-size: 14px !important;
+    font-weight: 500;
+}
 /* Main Section Title */
 .ct-mega-menu h2 {
     font-size: 16px !important;
@@ -29,7 +49,7 @@
 }
 
 .head{
-background-color: #6D9C72;
+background-color: #76A379;
 }
 /* ===== Main Box ===== */
 .our_solution_box {
