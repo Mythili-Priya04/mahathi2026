@@ -10,7 +10,6 @@ declare var $: any;
 export class DashboardComponent implements AfterViewInit, OnDestroy {
   @ViewChild('videoPlayer') videoPlayer!: ElementRef<HTMLVideoElement>;
 
-  
   ngAfterViewInit(): void {
     this.setupVideo();
     setTimeout(() => {
