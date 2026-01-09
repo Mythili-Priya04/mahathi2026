@@ -46,3 +46,74 @@
   justify-content: center;   /* center items vertically inside */
   gap: 16px;                 /* spacing between items */
 }
+/* ===== MENU HOVER STYLES ===== */
+.slick-slider__category-menu-container__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+/* Individual menu item hover effect */
+.menu-item-hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+/* Hover state for menu items only */
+.menu-item-hover:hover {
+  background-color: rgba(118, 163, 121, 0.15);
+  color: #76A379;
+  font-weight: 500;
+  transform: scale(1.05);
+}
+
+/* SVG hover effect */
+.menu-item-hover:hover svg path {
+  fill: #4a6d4f;
+  filter: brightness(0.9);
+}
+
+/* Separators should not change on hover */
+.menu-separator {
+  cursor: default;
+  padding: 0 8px;
+  color: #999;
+}
+
+.menu-separator:hover {
+  background-color: transparent !important;
+  color: #999 !important;
+  transform: none !important;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .slick-slider__category-menu-container__list {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .menu-item-hover {
+    width: 100%;
+    text-align: center;
+    padding: 12px 8px;
+  }
+
+  .menu-separator {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .slick-slider__category-menu-container__list {
+    padding: 0 !important;
+  }
+
+  .menu-item-hover {
+    padding: 10px 6px;
+    font-size: 14px;
+  }
+}
