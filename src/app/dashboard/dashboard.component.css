@@ -1,3 +1,16 @@
+
+/* OUTER GRAY */
+.impact-outer {
+  background-color: #bfbfbf8e !important;
+}
+/* INNER WHITE CARDS */
+.impact-card-wrapper {
+  background-color: #ffffff !important;
+  border: 1px solid #eceaea;
+  border-radius: 0px 30% 0px 30%;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
 .bigsection-heading{
   font-size: 30px;
 }
