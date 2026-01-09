@@ -288,8 +288,3 @@ background-color: #6D9C72;
     font-weight: 800 !important;
     color: #333; /* Optional: makes the year slightly darker for better contrast */
 }
-.force-hide {
-    display: none !important;
-    opacity: 0 !important;
-    visibility: hidden !important;
-}
