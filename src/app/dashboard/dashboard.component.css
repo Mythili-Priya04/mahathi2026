@@ -1,4 +1,4 @@
-.big{
+.bigsection-heading{
   font-size: 30px;
 }
 .font-weight-light{
@@ -12,6 +12,7 @@
 }
 .sec-1{
     padding-bottom: 0px !important;
+    /* background-color: #76A379; */
 }
 .intro-test-right {
   display: flex;
