@@ -17175,7 +17175,7 @@ body [class*='col-'] [class*='col-'] [class*='col-'] {
   right: 0;
 }
 .slick-slider__slide-dots li button {
-  background-color: #7dfa4b;
+  background-color:yellow;
 }
 .slick-slider__category-menu-container {
   display: flex;
@@ -17203,7 +17203,7 @@ body [class*='col-'] [class*='col-'] [class*='col-'] {
   .slick-slider__category-menu-container__category-menu-item__video-item:hover
     path {
     cursor: pointer;
-    fill: #7dfa4b;
+    fill:  #76A379;
     transition: 0.1s;
   }
 }
@@ -17218,8 +17218,8 @@ body [class*='col-'] [class*='col-'] [class*='col-'] {
 }
 .slick-slider__category-menu-container__category-menu-item__text-item:hover {
   cursor: pointer;
-  color: #7dfa4b;
-  border-top: 4px solid #7dfa4b;
+  color:  #76A379;
+  border-top: 4px solid  #76A379;
   transition: 0.1s;
 }
 @media screen and (max-width: 1100px) {
@@ -17262,7 +17262,7 @@ body [class*='col-'] [class*='col-'] [class*='col-'] {
 @media screen and (min-width: 1101px) {
   .slick-slider__category-menu-container__category-menu-item__mobile_dot_item {
     border-radius: 50%;
-    color: #7dfa4b;
+    color:  #76A379;
     height: 10px;
     width: 10px;
   }
@@ -17281,7 +17281,7 @@ body [class*='col-'] [class*='col-'] [class*='col-'] {
 @media screen and (max-width: 1100px) {
   .slick-slider__category-menu-container__category-menu-item__mobile_dot_arrow {
     font-size: 1.2em;
-    color: #7dfa4b;
+    color:  #76A379;
     font-weight: bold;
   }
 }
@@ -17329,7 +17329,7 @@ body [class*='col-'] [class*='col-'] [class*='col-'] {
   width: 100%;
 }
 .slick-slider__learn-more-button-container__button {
-  background-color: #7dfa4b;
+  background-color:  #76A379;
   color: white;
   border-radius: 1.2rem;
 }
@@ -17410,14 +17410,14 @@ body [class*='col-'] [class*='col-'] [class*='col-'] {
   }
   #home-slider .slick-dots li button:before {
     background-color: transparent;
-    border: 1px solid #7dfa4b;
+    border: 1px solid  #76A379;
     border-radius: 50%;
     display: inline-block;
     height: 12px;
     width: 12px;
   }
   #home-slider .slick-dots li.slick-active button:before {
-    background-color: #7dfa4b;
+    background-color:  #76A379;
   }
 }
 @media only screen and (min-width: 1101px) {
@@ -17654,7 +17654,7 @@ body [class*='col-'] [class*='col-'] [class*='col-'] {
     .test-overlay-div
     svg
     path {
-    stroke: #7dfa4b;
+    stroke:  #76A379;
   }
 }
 .davies-service-grid
@@ -17669,7 +17669,7 @@ body [class*='col-'] [class*='col-'] [class*='col-'] {
   .test-overlay-div:hover
   svg
   path {
-  stroke: #7dfa4b;
+  stroke:  #76A379;
 }
 .davies-service-grid
   .intro-test-right
@@ -17677,7 +17677,7 @@ body [class*='col-'] [class*='col-'] [class*='col-'] {
   .activeSlideTab
   svg
   path {
-  stroke: #7dfa4b;
+  stroke:  #76A379;
 }
 @media screen and (max-width: 40em) {
   .davies-service-grid .intro-test-right .hide-below-mobile {
@@ -17800,7 +17800,7 @@ body [class*='col-'] [class*='col-'] [class*='col-'] {
     .test-overlay-div
     svg
     path {
-    stroke: #7dfa4b;
+    stroke:  #76A379;
   }
 }
 .davies-learning-solutions-grid
@@ -17815,14 +17815,14 @@ body [class*='col-'] [class*='col-'] [class*='col-'] {
   .test-overlay-div:hover
   svg
   path {
-  stroke: #7dfa4b;
+  stroke:  #76A379;
 }
 .davies-learning-solutions-grid
   .intro-test-right
   .test-overlay-content
   .activeSlideTab
   h2 {
-  color: #7dfa4b !important;
+  color:  #76A379 !important;
 }
 @media screen and (max-width: 40em) {
   .davies-learning-solutions-grid .intro-test-right .hide-below-mobile {
@@ -17954,7 +17954,7 @@ body [class*='col-'] [class*='col-'] [class*='col-'] {
   }
 }
 .revolving-banner .test-overlay-div:hover {
-  background: #7dfa4b;
+  background:  #76A379;
 }
 .revolving-banner .activeSlideTab:hover h2 {
   color: #fff !important;
@@ -19065,7 +19065,7 @@ body.compensate-for-scrollbar {
   right: 0;
 }
 .slick-slider__slide-dots li button {
-  background-color: #7dfa4b;
+  background-color:  #76A379;
 }
 .slick-slider__category-menu-container {
   display: flex;
@@ -19093,7 +19093,7 @@ body.compensate-for-scrollbar {
   .slick-slider__category-menu-container__category-menu-item__video-item:hover
     path {
     cursor: pointer;
-    fill: #7dfa4b;
+    fill:  #76A379;
     transition: 0.1s;
   }
 }
@@ -19108,8 +19108,8 @@ body.compensate-for-scrollbar {
 }
 .slick-slider__category-menu-container__category-menu-item__text-item:hover {
   cursor: pointer;
-  color: #7dfa4b;
-  border-top: 4px solid #7dfa4b;
+  color:  #76A379;
+  border-top: 4px solid  #76A379;
   transition: 0.1s;
 }
 @media screen and (max-width: 1100px) {
@@ -19152,7 +19152,7 @@ body.compensate-for-scrollbar {
 @media screen and (min-width: 1101px) {
   .slick-slider__category-menu-container__category-menu-item__mobile_dot_item {
     border-radius: 50%;
-    color: #7dfa4b;
+    color:  #76A379;
     height: 10px;
     width: 10px;
   }
@@ -19171,7 +19171,7 @@ body.compensate-for-scrollbar {
 @media screen and (max-width: 1100px) {
   .slick-slider__category-menu-container__category-menu-item__mobile_dot_arrow {
     font-size: 1.2em;
-    color: #7dfa4b;
+    color:  #76A379;
     font-weight: bold;
   }
 }
@@ -19220,7 +19220,7 @@ body.compensate-for-scrollbar {
   width: 100%;
 }
 .slick-slider__learn-more-button-container__button {
-  background-color: #7dfa4b;
+  background-color:  #76A379;
   color: white;
   border-radius: 1.2rem;
 }
@@ -19301,14 +19301,14 @@ body.compensate-for-scrollbar {
   }
   #home-slider .slick-dots li button:before {
     background-color: transparent;
-    border: 1px solid #7dfa4b;
+    border: 1px solid  #76A379;
     border-radius: 50%;
     display: inline-block;
     height: 12px;
     width: 12px;
   }
   #home-slider .slick-dots li.slick-active button:before {
-    background-color: #7dfa4b;
+    background-color:  #76A379;
   }
 }
 @media only screen and (min-width: 1101px) {
@@ -19358,7 +19358,7 @@ body.compensate-for-scrollbar {
 }
 .dg-home-tv__title {
   margin-bottom: 42px;
-  color: #7dfa4b;
+  color:  #76A379;
 }
 .dg-home-tv__list {
   margin-bottom: 37px;
@@ -19760,7 +19760,7 @@ h2.service-title {
 }
 .slick-prev:before,
 .slick-next:before {
-  color: #7dfa4b !important;
+  color:  #76A379 !important;
   font-size: 50px;
 }
 .teal-button .view-all__circle {
@@ -19886,7 +19886,7 @@ h2.service-title {
     .test-overlay-div
     svg
     path {
-    stroke: #7dfa4b;
+    stroke:  #76A379;
   }
 }
 .davies-service-grid
@@ -20050,7 +20050,7 @@ h2.service-title {
     .test-overlay-div
     svg
     path {
-    stroke: #7dfa4b;
+    stroke:  #76A379;
   }
 }
 .davies-learning-solutions-grid
@@ -20065,14 +20065,14 @@ h2.service-title {
   .test-overlay-div:hover
   svg
   path {
-  stroke: #7dfa4b;
+  stroke:  #76A379;
 }
 .davies-learning-solutions-grid
   .intro-test-right
   .test-overlay-content
   .activeSlideTab
   h2 {
-  color: #7dfa4b !important;
+  color:  #76A379 !important;
 }
 @media screen and (max-width: 40em) {
   .davies-learning-solutions-grid .intro-test-right .hide-below-mobile {
@@ -20209,7 +20209,7 @@ h2.service-title {
   }
   
 .revolving-banner .test-overlay-div:hover {
-  background: #7dfa4b;
+  background:  #76A379;
 }
 
 }
@@ -20896,6 +20896,7 @@ h2.service-title {
 
 .footer_link_12 h4, .footer_link_12 h1, .footer_link_12 p, .footer_link_12 a {
   color:#F4F4F2;
+  font-size: 12px !important;
 }
 
 .footer_cls h4, .footer_cls h1, .footer_cls p {
@@ -20907,20 +20908,21 @@ h2.service-title {
 }
 
 .footer_link_12 h1 {
-  margin-bottom: 2rem;
+  font-size: 16px !important;
+  /* margin-bottom: 2rem; */
   font-weight: 400;
 }
 .footer_link_12 a:hover {
   color:#a3d19f;
   font-weight: 500;
 }
-.footer_font_style h1{
+/* .footer_font_style h1{
 font-size: 27px !important;
   text-transform: uppercase !important;
   font-weight: 700 !important;
   
 }
-
+ */
 
 
 .our_solution_box:hover {
@@ -20993,8 +20995,9 @@ font-size: 27px !important;
       font-size: 3rem;
     }
     .footer_link_12 h1 {
-    font-size: 1.5rem !important;
+      font-size: 16px !important;
     margin-bottom: 1.5rem;
+    font-weight: bold;
     }
     .container, .container-sm, .container-md, .container-lg, .container-xl {
         max-width: 1140px;
