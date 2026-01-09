@@ -1,0 +1,311 @@
+/* Custom boostrap scss overrides can go here! */
+.opacity-0 {
+  opacity: 0; }
+
+.opacity-1 {
+  opacity: 1; }
+
+.no-gutters-row {
+  margin-right: 0;
+  margin-left: 0; }
+
+.align-center {
+  display: block;
+  margin: 0 auto; }
+
+.h-200vh {
+  height: 200vh; }
+
+.bg-ctBlue {
+  background-color: #00a2ea; }
+
+.text-ctBlue,
+.text-ctBlue * {
+  color: #00a2ea; }
+
+.border-ctBlue {
+  border-color: #00a2ea; }
+
+.bg-ctDarkPurple {
+  background-color: #9D00FF; }
+
+.text-ctDarkPurple,
+.text-ctDarkPurple * {
+  color: #9D00FF; }
+
+.border-ctDarkPurple {
+  border-color: #9D00FF; }
+
+.bg-ctLightPurple {
+  background-color: #7E69FF; }
+
+.text-ctLightPurple,
+.text-ctLightPurple * {
+  color: #7E69FF; }
+
+.border-ctLightPurple {
+  border-color: #7E69FF; }
+
+.bg-ctOrange {
+  background-color: #ff5e01; }
+
+.text-ctOrange,
+.text-ctOrange * {
+  color: #ff5e01; }
+
+.border-ctOrange {
+  border-color: #ff5e01; }
+
+.bg-ctGreen {
+  background-color: #00d190; }
+
+.text-ctGreen,
+.text-ctGreen * {
+  color: #00d190; }
+
+.border-ctGreen {
+  border-color: #00d190; }
+
+.bg-ctLuminousGreen {
+  background-color: #CAC300; }
+
+.text-ctLuminousGreen,
+.text-ctLuminousGreen * {
+  color: #CAC300; }
+
+.border-ctLuminousGreen {
+  border-color: #CAC300; }
+
+.bg-ctDarkBlue {
+  background-color: #302D42; }
+
+.text-ctDarkBlue,
+.text-ctDarkBlue * {
+  color: #302D42; }
+
+.border-ctDarkBlue {
+  border-color: #302D42; }
+
+.bg-ctMedBlue {
+  background-color: #525061; }
+
+.text-ctMedBlue,
+.text-ctMedBlue * {
+  color: #525061; }
+
+.border-ctMedBlue {
+  border-color: #525061; }
+
+.bg-ctLightBlue {
+  background-color: #a3a2aa; }
+
+.text-ctLightBlue,
+.text-ctLightBlue * {
+  color: #a3a2aa; }
+
+.border-ctLightBlue {
+  border-color: #a3a2aa; }
+
+.bg-ctLightGrey {
+  background-color: #595959; }
+
+.text-ctLightGrey,
+.text-ctLightGrey * {
+  color: #595959; }
+
+.border-ctLightGrey {
+  border-color: #595959; }
+
+.bg-ctGrey {
+  background-color: #495057; }
+
+.text-ctGrey,
+.text-ctGrey * {
+  color: #495057; }
+
+.border-ctGrey {
+  border-color: #495057; }
+
+.bg-ctVeryLightGrey {
+  background-color: #ebecec; }
+
+.text-ctVeryLightGrey,
+.text-ctVeryLightGrey * {
+  color: #ebecec; }
+
+.border-ctVeryLightGrey {
+  border-color: #ebecec; }
+
+.bg-ctLightGreen {
+  background-color: #809086; }
+
+.text-ctLightGreen,
+.text-ctLightGreen * {
+  color: #809086; }
+
+.border-ctLightGreen {
+  border-color: #809086; }
+
+.bg-cegaRed {
+  background-color: #C00000; }
+
+.text-cegaRed,
+.text-cegaRed * {
+  color: #C00000; }
+
+.border-cegaRed {
+  border-color: #C00000; }
+
+.bg-ctOffWhite {
+  background-color: #D9D9D9; }
+
+.text-ctOffWhite,
+.text-ctOffWhite * {
+  color: #D9D9D9; }
+
+.border-ctOffWhite {
+  border-color: #D9D9D9; }
+
+.bg-white {
+  background-color: #fff; }
+
+.text-white,
+.text-white * {
+  color: #fff; }
+
+.border-white {
+  border-color: #fff; }
+
+#page-block-contact-form.is-sticky {
+  position: fixed;
+  bottom: 0; }
+
+#page-block-contact-form.sticky + .cms-plugin {
+  padding-top: 93px; }
+
+#page-block-contact-form {
+  width: 100%;
+  z-index: 10; }
+  #page-block-contact-form .modal-body {
+    padding: 2rem 1rem 1rem;
+    position: relative; }
+    #page-block-contact-form .modal-body .close {
+      position: absolute;
+      top: 1rem;
+      right: calc(1.5rem + 0.4375rem);
+      z-index: 1; }
+  #page-block-contact-form .form-inner {
+    background-color: #302D42;
+    width: 100%;
+    overflow: hidden;
+    z-index: 10; }
+    #page-block-contact-form .form-inner .contact-form-container {
+      background-color: #fff; }
+      #page-block-contact-form .form-inner .contact-form-container .alert {
+        background-color: #ebecec;
+        color: #302D42;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        border: 0px solid transparent;
+        border-radius: 0;
+        padding: 2rem 2rem;
+        -ms-flex-pack: center;
+            justify-content: center; }
+        #page-block-contact-form .form-inner .contact-form-container .alert .close {
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+          justify-self: flex-end; }
+      #page-block-contact-form .form-inner .contact-form-container .col {
+        padding-top: 2.75rem;
+        padding-bottom: 2.75rem; }
+        #page-block-contact-form .form-inner .contact-form-container .col .contact-intro .col {
+          padding-bottom: 0.9375rem;
+          padding-top: 0.9375rem; }
+          #page-block-contact-form .form-inner .contact-form-container .col .contact-intro .col p {
+            color: #595959;
+            margin-bottom: 0; }
+          #page-block-contact-form .form-inner .contact-form-container .col .contact-intro .col h3 {
+            color: #302D42;
+            font-weight: 600; }
+  #page-block-contact-form .contact-form .row .col {
+    padding-bottom: 0.9375rem;
+    padding-top: 0.9375rem; }
+    #page-block-contact-form .contact-form .row .col input,
+    #page-block-contact-form .contact-form .row .col select,
+    #page-block-contact-form .contact-form .row .col textarea {
+      background-color: #ebecec;
+      border-color: transparent;
+      border-radius: 0;
+      height: auto;
+      padding: 0.75rem; }
+    #page-block-contact-form .contact-form .row .col select {
+      color: #595959; }
+      #page-block-contact-form .contact-form .row .col select option {
+        color: #495057; }
+    #page-block-contact-form .contact-form .row .col .form-check {
+      padding-left: 0;
+      margin-bottom: 0.5rem; }
+      #page-block-contact-form .contact-form .row .col .form-check input {
+        border-radius: 0;
+        background-color: #ebecec;
+        padding: 0;
+        height: initial;
+        width: initial;
+        margin-bottom: 0;
+        margin-left: 0;
+        opacity: 0;
+        position: absolute;
+        cursor: pointer;
+        left: 4px;
+        margin-left: 0;
+        top: 10px; }
+        #page-block-contact-form .contact-form .row .col .form-check input:checked + label:after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 4px;
+          left: 8px;
+          width: 5px;
+          height: 12px;
+          border: solid #302D42;
+          border-width: 0 2px 2px 0;
+          -webkit-transform: rotate(45deg);
+                  transform: rotate(45deg); }
+      #page-block-contact-form .contact-form .row .col .form-check label {
+        color: #595959;
+        font-size: 12px;
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center; }
+        #page-block-contact-form .contact-form .row .col .form-check label a {
+          color: #595959;
+          font-weight: 600; }
+        #page-block-contact-form .contact-form .row .col .form-check label:before {
+          content: '';
+          -webkit-appearance: none;
+          background-color: #ebecec;
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+          padding: 10px;
+          display: inline-block;
+          position: relative;
+          vertical-align: middle;
+          cursor: pointer;
+          margin-right: 0.625rem;
+          -ms-flex-item-align: start;
+              align-self: start; }
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }

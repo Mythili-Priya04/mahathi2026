@@ -1,0 +1,68 @@
+/* Custom Divider */
+.custom-divider {
+    width: 60px;
+    height: 4px;
+    background-color: #ff8c00; /* Healthcare Orange */
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+/* Outcome Cards */
+.outcome-card {
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #edf0f2;
+    transition: all 0.3s ease;
+}
+
+.outcome-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border-color: #537450;
+}
+
+.outcome-icon {
+    font-size: 2.5rem;
+}
+
+/* Analytics Highlight Box */
+.analytics-highlight {
+    border-left-color: #537450 !important;
+}
+
+/* The Call to Action Button */
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #537450;
+    color: white !important;
+    padding: 18px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(83, 116, 80, 0.3);
+}
+
+.cta-button:hover {
+    background-color: #435e41;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(83, 116, 80, 0.4);
+}
+
+.cta-button svg {
+    transition: transform 0.3s ease;
+}
+
+.cta-button:hover svg {
+    transform: translateX(5px);
+}
+
+/* Lead text tweak */
+.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #2c3e50;
+}

@@ -1,0 +1,28 @@
+.intro-test-right{
+    border-radius: 12px 0px 0px 12px;
+}
+.davies-service-grid .intro-test-right .test-overlay-content .test-overlay-div {
+    height: 4.5rem;
+}
+.sec-1{
+    padding-bottom: 0px !important;
+}
+.intro-test-right {
+  display: flex;
+  align-items: center;       /* vertical centering */
+  justify-content: center;   /* horizontal centering */
+  height: 100%;              /* must fill section */
+}
+.dg-home-intro,
+#home-intro {
+  min-height: 100vh;
+}
+.intro-test-right {
+  min-height: 100vh;
+}
+.test-overlay-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* center items vertically inside */
+  gap: 16px;                 /* spacing between items */
+}
